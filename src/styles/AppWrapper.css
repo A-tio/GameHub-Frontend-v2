@@ -1,0 +1,270 @@
+.app-wrapper-main {
+  font-size: 1rem;
+  min-height: 90vh;
+}
+
+.AppIcon {
+  width: 3vw;
+  height: 3vh;
+
+}
+
+
+
+input {
+  border: none;
+  outline: none;
+}
+
+header {
+  position: fixed;
+  width: 96%;
+  background-color: #101010;
+  border-bottom: 1px solid rgb(91, 91, 91);
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-between;
+  /* Distribute space between children */
+  align-items: center;
+  /* Align items vertically */
+  padding: 1% 2%;
+  /* Add some horizontal padding */
+  /* border: 1px solid rgb(97, 97, 97) ; */
+  margin: 0;
+  z-index: 99999999;
+}
+
+.logo-box {
+  display: flex;
+  margin: 0;
+  /* Reset margins */
+  width: auto;
+  /* Adjust width to fit content */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.home-logo{
+  width: 3vw;
+  height: 5vh;
+  display: flex;
+  align-self: center;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Vertically align elements */
+  justify-content: center;
+  /* Stick elements to the left */
+  /* background-color: #fa4949; */
+  border-radius: 10px;
+  border: 1px solid #474747;
+  background-color: #191919;
+  margin: 0;
+  padding: 0.1%;
+  width: 30%;
+  z-index: 99999999999;
+  height: 60%;
+}
+
+.searchbar input:focus {
+  border: none;
+}
+
+.searchbar * {
+  width: 30%;
+
+  padding: 0;
+  /* Reset padding */
+}
+
+
+.searchbar input {
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: none;
+  background-color: #fa494900;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.list-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  /* Center the navbar vertically */
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navlist li {
+  margin: 0 1vw;
+}
+
+.vertical-navbar {
+  position: fixed;
+  align-content: center;
+  background-color: #101010;
+  margin-top: 7.5vh;
+  border-right: 1px solid #474747;
+  /* border: 1px solid rgb(30, 168, 78); */
+  width: 15vw;
+  height: 93vh;
+}
+
+.vert-navlist {
+  list-style: none;
+  margin: 0;
+  height: auto;
+  /* border: 1px solid rgba(228, 203, 11, 0.852); */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.side-color{
+
+  width: 0.2vw;
+  height: 5vh;
+  background-color: #75f94c;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.vert-navlist li {
+  margin: 0 0 0 0;
+
+  /* border-bottom: 1px solid  rgba(208, 76, 80, 0.502); */
+  width: 80%;
+}
+
+.logout-btn{
+  position: fixed;
+  bottom: 1vh;
+  width: 15vw;
+  
+  background-color: #101010;
+  color: white;
+}
+
+.logout-container{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  width: 80%;
+  align-items: center;
+}
+
+.navIcon{
+  color: #969696;
+}
+.navItem {
+  /* border: 2px solid  rgba(70, 145, 215, 0.502); */
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+}
+
+.navItem div {
+  margin: 1vh 1vw;
+}
+
+.content-page {
+  margin-left: 15vw;
+  padding: 12.5vh 1.5vw;
+  width: 81.3vw;
+  background-color: #121212;
+}
+
+.side-color {
+
+  width: 0.2vw;
+  height: 5vh;
+  background-color: #75f94c; /* Example color */
+  visibility: hidden; /* Hide by default */
+}
+
+.navItem.active .side-color {
+    visibility: visible; /* Show only if active */
+}
+
+
+
+.navLink {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Vertically align elements */
+  justify-content: stretch;
+  /* Stick elements to the left */
+  margin: 0;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.navLink.active {
+  color: #75f94c; /* Example color */
+  background-color: #141414; /* Optional */
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings: 'FILL' 1;
+}
+
+.navLink * {
+  margin: 3%;
+  /* Remove auto margins */
+  padding: 0;
+  /* Reset padding */
+}
+
+
+@media (max-width: 768px) {
+  .navLink p {
+    display: none;
+  }
+
+  .AppIcon {
+    display: flex;
+  }
+
+  .searchbar {
+    width: 50%;
+    height: 40%;
+  }
+
+  .navlist {
+    display: none;
+  }
+
+  .vert-navlist {
+    display: none;
+  }
+
+  .searchbar {
+    width: 70%;
+  }
+
+  .content-page {
+    margin: 0;
+    width: 100%;
+    padding-top: 7vh;
+  }
+
+}

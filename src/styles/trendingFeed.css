@@ -1,0 +1,92 @@
+.trending-post-mini-container {
+    height: 15vh;
+    /* border: 1px solid white; */
+    margin-bottom: 3vh;
+    padding-left: 2vw;
+    border-bottom: 1px solid #474747;
+    padding-top: 1vh;
+    border-radius: 5px;
+    background: #1A1A1A;
+}
+
+.trending-feed-box {
+    color: white;
+
+    overflow-y: scroll;
+
+    max-height: 100%;
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+.trending-feed-box::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Opera */
+}
+
+.icon-up {
+    transform: rotate(-90deg);
+    color: #969696;
+}
+
+.icon-comment {
+    color: #969696;
+}
+
+.trending-title-container {
+    font-size: 12px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.trending-title-container h3 {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.trending-row {
+    font-size: 8px;
+    height: 3.5vh;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.trending-row p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.trending-row,
+.icon-container {
+    display: flex;
+        /* border: 1px solid white; */
+    margin: 0;
+}
+
+.icon-container {
+    gap: 10px;
+}
+
+.trending-column {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    /* border: 1px solid blue; */
+    gap: 10px;
+    margin-right: 2.5vw;
+    align-items: center;
+
+}

@@ -1,0 +1,66 @@
+/* Container */
+.log-feed-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #1e1e2e;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+}
+
+/* Table Styling */
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table Header */
+.log-table thead {
+    background: #75F94C;
+    color: #fff;
+}
+
+.log-table th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Table Rows */
+.log-table tbody tr {
+    border-bottom: 1px solid #444;
+    transition: background 0.2s ease-in-out;
+}
+
+.log-table tbody tr:hover {
+    background: #29293f;
+}
+
+/* Table Cells */
+.log-table td {
+    padding: 12px;
+    color: #e0e0e0;
+}
+
+/* No Logs Available Message */
+.no-logs {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    color: #ff7b00;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .log-feed-container {
+        padding: 10px;
+    }
+
+    .log-table th, .log-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

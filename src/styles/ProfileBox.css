@@ -1,0 +1,107 @@
+.profile-name{ 
+    /* border: 1px solid white; */
+    display: flex;
+    margin-top: 7.5vh;
+    flex-direction: column;
+    min-height: 40vh;
+}
+
+.username-container2{
+    display: flex;
+    align-items: center;
+}
+.profile-details-row{
+
+    display: flex;
+    /* border: 1px solid white; */
+    flex-direction: row;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.row{
+    display: flex;
+    align-items: flex-end;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    margin: 0;
+}
+
+.img-container {
+    display: flex;
+    height: 25vh;
+    width: 13vw;
+    min-height: 20vh;
+    min-width: 20vh;
+    background-color: rgba(204, 66, 89, 0.523);
+    border-radius: 10%;
+}
+
+.img-container img{
+    height: 100%;
+    margin: auto;
+}
+
+.profile-column{
+    /* border: 1px solid rgb(255, 41, 41); */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-left: 3vw;
+}
+
+.profile-column *{
+    margin: 0;
+}
+
+.spacer {
+    /* border: 1px solid white; */
+}
+
+.recent-activity{
+    display: flex;
+    flex-direction: row;
+        
+}
+
+.recent-activity div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* border-bottom: 1px solid white; */
+    padding: 0 1vw ;
+    margin: 0 1vw 0 0 ;
+}
+
+.post-feed{
+    /* border: 1px solid white; */
+    padding: 1%;
+}
+
+.username-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-edit-button ,.profile-button-row{
+    margin: 0 5% 0 0 ;
+}
+.profile-tags-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-tags-container ul{
+    margin: 5% 0 5% 0;
+}
+
+.profile-button-row{
+    display: flex;
+    flex-direction: row;
+}
+.profile-edit-button {
+    margin-left: 5%;
+}

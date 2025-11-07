@@ -1,0 +1,345 @@
+  /* Full-screen overlay layer */
+*{
+  font-family: 'DM Sans';
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000007f;
+
+  /* Semi-transparent black */
+  display: flex;
+  /* Center the content div */
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999999;
+  /* Ensure it's above other content */
+}
+
+
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  font-weight: 800;
+  font-size: 2vw;
+  margin-top: 20%;
+}
+
+.logo p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.logo span {
+  margin-top: 0;
+  font-size: 2vh;
+  font-weight: 100;
+}
+
+.login-box {
+  margin-bottom: 0;
+}
+
+/* Container div with flexbox and row direction */
+.flex-container {
+  display: flex;
+  height: 85%;
+  width: 80%;
+  flex-direction: row;
+  /* Horizontal alignment of child divs */
+  gap: 20px;
+  /* Add space between the child divs */
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  /* Subtle shadow */
+}
+
+/* Individual child divs */
+.child {
+  position: relative;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  /* Allow equal space distribution */
+  padding: 0 5vw;
+  border-radius: 5px;
+}
+
+
+.login-form {
+  margin-top: 0;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  
+}
+
+.login-form .form {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  /* border: 1px solid white; */
+}
+
+.login-form .form input {
+  color: white;
+  padding: 3vh ;
+  margin-bottom: 2vh;
+  height: 3%;
+  border-radius: 10px;
+  border: 1px solid #474747;
+  background-color: #191919;
+
+}
+
+.login-form .form input::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.input-container input {
+  width: 85%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container label {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 16px;
+  color: gray;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 20px;
+  font-size: 12px;
+  color: gray;
+}
+
+.login-row {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  /* border: 1px solid white; */
+  margin-bottom: 1vh;
+
+}
+
+.regBtn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.regBtn span {
+  background-color: #121212;
+  color: #75F94C;
+  margin-left: 0.5vw;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: flex-start; /* Align text to the top */
+  text-decoration: underline;
+ 
+}
+
+
+.login-row button {
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  align-self: center;
+  border: none;
+  padding: 0;
+  width: 25vw;
+  margin-top: 1vh;
+  height: 6vh;
+  font-weight: 600;
+
+}
+
+
+.child h1,
+h3 {
+  text-align: center;
+  z-index: 999;
+}
+
+.error-box {
+  display: block;
+  color: #f87474;
+}
+
+.error-box p {
+  text-align: center;
+
+}
+
+.error {
+  border: 1px rgb(244, 108, 131) solid !important;
+  color: rgb(246, 110, 132);
+}
+
+input:-webkit-autofill {
+  background-color: #242424;
+  /* Change background color */
+  color: #000;
+  /* Change text color */
+  font-style: normal;
+  box-shadow: 0 0 0px 1000px #0e0e0e inset;
+  /* Ensure background color covers the entire field */
+}
+
+.banner {
+ 
+  background-size: cover;
+  margin: -20px;
+  padding: -20px;
+  position: relative;
+  /* Add this to establish a positioning context */
+  overflow: hidden;
+  /* Ensures children do not overflow the parent */
+  border-radius: 10px;
+  flex: 1.3;
+}
+
+.image-overlay {
+  height: 120%;
+  margin: -20px;
+  padding: -20px;
+  width: 120%;
+
+  position: absolute;
+  /* Use absolute positioning instead of fixed */
+  top: 0;
+  left: 0;
+}
+
+.welcome-text{
+  color: white;
+  z-index: 999;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  flex-direction: column;
+}
+.text-row{
+  line-height: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.text-row img{
+  width: 2.5vw;
+  height: 5vh;
+}
+
+.text-desc{
+  text-align: center;;
+}
+.pattern-overlay {
+  height: 100%;
+  margin: -20px;
+  padding: -20px;
+  width: 100%;
+  background-image: url("../assets/images/game 1.png");
+  background-color: #191919;
+  position: absolute;
+  background-size:contain;
+  background-repeat: no-repeat; 
+  background-position:bottom;
+  right: 5%;
+}
+
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 200;
+  z-index: 999;
+}
+
+.banner-close {
+  top: 10 !important;
+  right: 10 !important;
+  display: block !important;
+}
+
+@media (max-width: 1024px) {
+
+  #root {
+    overflow-x: hidden;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 110%;
+  }
+
+  .login-box {
+    margin-bottom: 3vh;
+  }
+
+  .banner {
+    min-height: 40vh;
+    margin: -20px;
+    padding: -20px;
+    border-radius: 0;
+  }
+
+  .flex-container {
+    height: auto;
+  }
+
+
+  .login-form .form input {
+
+    padding: 2vh 2vw;
+  }
+
+  .login-close {
+    display: block !important;
+
+  }
+
+  .banner-close {
+    display: none !important;
+  }
+}

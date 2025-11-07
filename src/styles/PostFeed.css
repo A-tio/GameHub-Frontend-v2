@@ -1,0 +1,11 @@
+.post-feed-box{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.user-post-feed-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2% 0 2% ;
+}

@@ -1,0 +1,35 @@
+.create-new-comment{
+    /* border: 1px solid    white; */
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 91%;
+    height: 100%;
+    resize: none;
+    padding: 1%;
+    background-color: #191919;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: 1px solid #474747;
+}
+
+.create-new-comment textarea {
+   background-color: #191919;
+   border: none;
+   resize: none;
+   outline: none;
+   width: 90%;
+   color: white;
+}
+
+.create-new-comment button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: flex-end;
+
+}

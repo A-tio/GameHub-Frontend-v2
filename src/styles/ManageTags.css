@@ -1,0 +1,455 @@
+.tag-Management-Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag-manage-column {
+    /* border: 1px solid rgb(203, 145, 79); */
+    padding: 1% 0;
+}
+
+.tag-management-left-side {
+    /* border: 1px solid blue; */
+    padding: 2%;
+    width: 65%;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important; 
+}
+.edit-body p{
+    text-align: start;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+  }
+
+.tag-edit-area{
+    border: 1px solid #474747;
+    margin-top: 66%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    height: 60vh;
+}
+
+.btn2{
+    width: 92%;
+}
+.featuredgame-edit-area{
+    border: 1px solid #474747;
+    margin-top: 255%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    height: 80vh;
+}
+.tag-management-right-side {
+    width: 30%;
+    /* border: 1PX solid white; */
+}
+
+.tag-and-feature-banner-box {
+    border: 1px solid #474747;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 12vh;
+    align-items: center;
+    background-color: #191919;
+}
+
+.TopAppIcon {
+    width: 5vw !important;
+    height: 5vh !important;
+    color: #75f94c;
+}
+
+.header5{
+    display: flex;
+    justify-content: flex-start !important;
+}
+.containertag{
+    margin: 0 -5% 0 0;
+}
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: start;
+}
+
+.icon-container span {
+    font-size: 16px;
+    font-weight: 100;
+    color: #969696;
+}
+
+.icon-container h4 {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.banner-column,
+.body-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-column {
+    border: 1px solid white;
+    width: 100%;
+
+}
+
+.tagSearch{
+    padding-right: 2vw;
+    outline: none;
+    width: 20vw;
+}
+.tags-and-categorie,
+.manage-tagNfeature-container {
+    margin: 5% 2% 5% 0;
+}
+
+.body-box {
+    border-radius: 10px;
+    border: 1px solid #474747;
+    margin-top: 2vh;
+    background-color: #191919;
+    height: auto;
+    padding: 0 3vw;
+
+}
+
+.tags-row {
+    padding: 1%;
+    gap: 3%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+}
+
+.tags-row .tags-column {
+    width: 20%;
+    /* border: 1px solid white; */
+}
+
+.tags-column p {
+    color: #969696;
+}
+
+.tagNfeature-header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1%;
+}
+
+.tagNfeature-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-weight: 200;
+}
+
+.tagNfeature-header-box div {
+    margin: auto 0;
+}
+
+.add-button-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.51%;
+    width: 8vw;
+    height: 4vh;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    background-color: #191919;
+}
+
+.add-featured-button-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.51%;
+    width: 12vw;
+    height: 4vh;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    background-color: #191919;
+}
+
+.input-tag-name{
+    border: 1px solid #474747;
+    border-radius: 5px;
+    width: 20VW;
+    
+    height: 4vh;
+    background-color: #191919;
+    color: white;
+    padding-left: 0.5vw;
+}
+
+.input-tag-name::placeholder, .edit-textarea::placeholder{
+    color: white;
+}
+
+.edit-textarea{
+    border: 1px solid #474747;
+    border-radius: 5px;
+    width: 20VW;
+    padding-top: 1vh;
+    background-color: #191919;
+    color: white;
+    padding-left: 0.5vw;
+    resize: none;
+    outline: none;
+}
+.edit2-textarea{
+    border: 1px solid #474747;
+    border-radius: 5px;
+    width: 20vw !important;
+    padding-top: 1vh;
+    background-color: #191919;
+    color: white;
+    resize: none;
+    outline: none;
+    white-space: nowrap;
+}
+
+.edit3-textarea{
+    border: 1px solid #474747;
+    border-radius: 5px;
+    width: 20vw !important;
+    padding-top: 1vh;
+    background-color: #191919;
+    color: white;
+    height: 10vh !important;
+    resize: none;
+    outline: none;
+}
+.category-combox{
+    width: 21vw;
+    height: 4vh;
+    padding-left: 0.2vw;
+    background-color: #191919;
+    color: white;
+    border: 1px solid #474747;
+    outline: none;
+    border-radius: 5px;
+    padding-right: 0.5vw;
+}
+
+.confirm-button-containers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    gap: 5px;
+}
+
+
+.add-btn{
+    background-color: #fafafa;
+    color: black;
+    height: 4.5vh;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20vw;
+}
+
+.cancel-btn{
+    margin-top: 1vh;
+    border: none;
+    background-color: transparent;
+    color: #969696;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 20vw;
+}
+
+.add-button-div button,
+.add-featured-button-div button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.selected-mtg-item {
+    color: rgb(0, 236, 35);
+    font-weight: bolder;
+}
+
+.edit-title {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.edit-title .edit-header{
+    /* border: 1px solid #474747; */
+    width: 100%;
+    height: 15vh;
+}
+
+.edit-header{
+    display: flex;
+    flex-direction: column;
+    /* line-height: 0; */
+}
+
+.edit3-header{
+    display: flex;
+    text-align: start !important;
+}
+.edit2-header{
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edit2-container{
+    margin-right: 2vw;
+}
+
+.edit2-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.file-btn{
+    width: 100%;
+    border: 1px solid #474747;
+    display: flex;
+    justify-content: center;
+}
+
+.file-btn {
+    display: none;
+  }
+  
+  .file-btn-label {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #fafafa;
+    color: black;
+    border-radius: 4px;
+    width: 6vw;
+    }
+
+.edit-area {
+    padding: 5%;
+}
+
+.edit-area textarea,
+.edit-area select {
+    border-color: #4caf4f00;
+    /* Change border color */
+    outline: none;
+    /* Remove the default focus outline */
+    background-color: #f0f9f400;
+    /* Change background color */
+    caret-color: transparent;
+    resize: none;
+    width: 100%;
+}
+
+.edit-area textarea:disabled,
+.edit-area select:disabled {
+    color: white;
+    opacity: 100%;
+}
+
+.edit-area textarea:focus,
+.edit-area .enabled-textarea {
+    border-color: #4caf4f;
+    /* Change border color */
+    outline: none;
+    /* Remove the default focus outline */
+    caret-color: white;
+    resize: none;
+    border-radius: 5px;
+    width: 20vw;
+}
+
+.poster-preview {
+    width: 5vw;
+    height: 50%;
+    padding-right: 2vw;
+}
+
+.poster-placeholder {
+    width: 7vw;
+    height: 15vh;
+    border: 2px dashed #474747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #969696;
+    margin-right: 2vw;
+  }
+
+.poster-img{
+    width: 12.5vw;
+    height: 125%;
+}
+.image-container {
+    object-fit: fill;
+
+}
+
+.fg-box {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .fg-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four games per row */
+    gap: 16px; /* Adjust spacing between items */
+  }
+  
+  .featured-game-item {
+    overflow: hidden;
+    text-align: left; /* Centering content within each game item */
+  }
+
+  .featured-game-item h3 {
+    margin: 8px 0;
+    text-align: left; 
+    font-size: 16px;
+    font-weight: 300;
+  }

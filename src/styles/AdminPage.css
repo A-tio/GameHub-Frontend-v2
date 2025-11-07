@@ -1,0 +1,122 @@
+.stat-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.AppIcon{
+    color: #75f94c;
+}
+
+.stat-boxes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+.stat-container{
+    border: none;
+    border-left: 1px solid #474747;
+    border-right: 1px solid #474747;
+    height: 30vh;
+    width: 29%;
+    flex-shrink: 0;
+    padding: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stat-info{
+    background-color: #141414;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.stat-container p{
+    color: #969696;
+}
+.stat-container h1{
+    font-weight: 100;
+}
+.box2{
+    border: none;
+}
+.stat-container h3{
+    font-size: 200% ;
+}
+
+
+.options-container{
+    border: #474747 1px solid;
+    border-radius: 10px;
+    background-color: #141414;
+    height: 25vh;
+    flex-shrink: 0;
+    width: 29%;
+    padding: 3vh;
+    text-align: center;
+    align-items: flex-end ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-text{
+    text-align: start;
+    line-height: 1;
+    /* border: 1px solid white; */
+}
+
+.options-text p{
+    color: #969696;
+}
+.options-icon{
+    /* border: 1px solid white; */
+    height: 7vh;
+    width: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.options-screen{
+    display: flex;
+    margin-left: 1vw;
+    justify-content: flex-start;
+}
+.title h3{
+    text-align: start !important;
+    padding-left: 1vw;
+}
+
+.admin-header{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+    margin-top: 2vh;
+    line-height: 0;
+    padding-left: 1vw;
+}
+
+.admin-header h4{
+    font-size: 26px;
+    margin-bottom: 2vh;
+}
+
+.admin-header h5{
+    font-size: 15px;
+    font-weight: 100;
+    
+}
