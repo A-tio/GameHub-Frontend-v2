@@ -1,6 +1,5 @@
 import firebase from 'firebase/compat/app';
-import { db} from './fireBase';
-import { collection, addDoc, doc, getDoc, deleteDoc, setDoc, query, where, getDocs } from 'firebase/firestore';
+import { db } from './fireBase';
 import { getEntryById } from './firebaseOperations';
 
 async function getUserDeets(userId) {

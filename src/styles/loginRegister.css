@@ -1,4 +1,7 @@
   /* Full-screen overlay layer */
+
+ @import "tailwindcss";
+ 
 *{
   font-family: 'DM Sans';
 }
